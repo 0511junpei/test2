@@ -1,0 +1,15 @@
+name: slack test
+
+on:
+  push:
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: notify
+      run: |
+        curl -X POST -H 'Content-type: application/json'\
+        --data '{"text":"Hello, World!"}'\ 
+        https://hooks.slack.com/services/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
