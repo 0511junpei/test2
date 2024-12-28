@@ -10,4 +10,4 @@ jobs:
     steps:
     - name: notify
       run: |
-        curl -X POST -H 'Content-type: application/json' --data '{"text":"Hello, World!"}' https://hooks.slack.com/services/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
+        curl -X POST -H 'Content-type: application/json' --data '{"text":"Hello, World!"}' https://hooks.slack.com/services/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
